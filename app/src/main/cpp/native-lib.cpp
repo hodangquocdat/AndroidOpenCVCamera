@@ -12,7 +12,7 @@ using namespace cv;
 extern "C" JNIEXPORT void
 
 JNICALL
-Java_com_dathdq_androidopencvcamera_MyGLSurfaceView_processFrame(JNIEnv *env, jclass clazz,
+Java_com_dathdq_androidopencvcamera_MyGLSurfaceView_processFrame(JNIEnv *env, jobject clazz,
                                                                       jint texIn, jint texOut,
                                                                       jint w, jint h,
                                                                       jboolean frontFacing) {
